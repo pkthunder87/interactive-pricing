@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply text-[100%];
+  }
+
+  /* Basic styles for mobile and desktop */
+  body {
+    @apply flex h-fit w-[100dvw] items-center justify-center   antialiased sm:h-[100dvh];
+  }
+}
