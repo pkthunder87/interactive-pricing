@@ -1,7 +1,7 @@
 function App() {
   return (
-    <div className="text-7xl font-semibold text-red-500">
-      Interactive Pricing Component
+    <div className="absolute  text-red-500 ">
+      <p className="">Interactive Pricing Component</p>
     </div>
   );
 }

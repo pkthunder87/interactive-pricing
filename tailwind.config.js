@@ -14,6 +14,9 @@ export default {
       xl3: '1440px',
     },
     extend: {
+      backgroundImage: {
+        'svg-background': "url('bg-pattern.svg')",
+      },
       colors: {
         'primary-soft-cyan': 'hsl(174, 77%, 80%)',
         'primary-strong-cyan': 'hsl(174, 86%, 45%)',
@@ -23,7 +26,7 @@ export default {
         'neutral-white': 'hsl (0, 0%, 100%)',
         'neutral-very-pale-blue': 'hsl(230, 100%, 99%)',
         'neutral-light-grayish-blue-slider': 'hsl(224, 65%, 95%)',
-        'neutral-light-graish-blue-toggle': 'hsl(223, 50%, 87%)',
+        'neutral-light-grayish-blue-toggle': 'hsl(223, 50%, 87%)',
         'neutral-grayish-blue': 'hsl(225, 20%, 60%)',
         'neutral-dark-desaturated-blue': 'hsl(227, 35%, 25%)',
       },
