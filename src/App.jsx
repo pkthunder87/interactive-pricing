@@ -1,9 +1,7 @@
+import AppLayout from './components/AppLayout';
+
 function App() {
-  return (
-    <div className="absolute  text-red-500 ">
-      <p className="">Interactive Pricing Component</p>
-    </div>
-  );
+  return <AppLayout />;
 }
 
 export default App;
