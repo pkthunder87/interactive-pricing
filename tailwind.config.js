@@ -16,6 +16,7 @@ export default {
     extend: {
       backgroundImage: {
         'svg-background': "url('bg-pattern.svg')",
+        'svg-header': "url('pattern-circles.svg')",
       },
       colors: {
         'primary-soft-cyan': 'hsl(174, 77%, 80%)',
