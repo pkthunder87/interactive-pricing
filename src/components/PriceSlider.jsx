@@ -25,7 +25,7 @@ function PriceSlider() {
       <p>Pricing Component</p>
       <div className="flex justify-center">
         <input
-          className={`slider track h-2`}
+          className={`slider track h-2 `}
           type="range"
           min={1}
           max={100}

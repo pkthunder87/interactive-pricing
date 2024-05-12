@@ -22,6 +22,8 @@ export default {
       colors: {
         'primary-soft-cyan': 'hsl(174, 77%, 80%)',
         'primary-strong-cyan': 'hsl(174, 86%, 45%)',
+        'active-cyan': 'hsl(174, 86%, 35%)',
+        'shadow-cyan': 'hsla(174, 86%, 55%, .7)',
         'primary-light-grayish-red': 'hsl(14, 92%, 95%)',
         'primary-light-red': 'hsl(15, 100%, 70%)',
         'primary-pale-blue': 'hsl(226, 100%, 87%)',

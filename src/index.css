@@ -8,37 +8,41 @@
   }
 
   .slider {
-    @apply relative h-4  w-full 
-    appearance-none
-    rounded-full
-     [&::-moz-range-thumb]:-mt-4
+    @apply [&::-webkit-slider-thumb]:shadow-shadow-cyan [&::-webkit-slider-thumb]:active:bg-active-cyan  [&::-moz-range-thumb]:shadow-shadow-cyan 
+    [&::-moz-range-thumb]:active:bg-active-cyan
+    relative
+     h-4
+    w-full 
+    appearance-none 
+    rounded-full 
+    [&::-moz-range-thumb]:-mt-4  
     [&::-moz-range-thumb]:h-10 
     [&::-moz-range-thumb]:w-10 
     [&::-moz-range-thumb]:cursor-pointer 
-    [&::-moz-range-thumb]:appearance-none  
+    [&::-moz-range-thumb]:appearance-none 
     [&::-moz-range-thumb]:rounded-full 
     [&::-moz-range-thumb]:border-none 
-    [&::-moz-range-thumb]:bg-primary-strong-cyan 
-    [&::-moz-range-thumb]:bg-svg-slider 
-    [&::-moz-range-thumb]:bg-center 
+    [&::-moz-range-thumb]:bg-primary-strong-cyan
+    [&::-moz-range-thumb]:bg-svg-slider
+    [&::-moz-range-thumb]:bg-center
     [&::-moz-range-thumb]:bg-no-repeat
-    [&::-moz-range-thumb]:active:brightness-75
-    [&::-webkit-slider-runnable-track]:h-2
-    [&::-webkit-slider-runnable-track]:appearance-none
-    [&::-webkit-slider-runnable-track]:overflow-visible
-    [&::-webkit-slider-runnable-track]:rounded-full
+    [&::-moz-range-thumb]:shadow-[0_12px_25px_5px]
 
-    [&::-webkit-slider-thumb]:-mt-4
+    [&::-webkit-slider-runnable-track]:h-2 
+    [&::-webkit-slider-runnable-track]:appearance-none 
+    [&::-webkit-slider-runnable-track]:overflow-visible  
+    [&::-webkit-slider-runnable-track]:rounded-full  
+    [&::-webkit-slider-thumb]:-mt-4 
     [&::-webkit-slider-thumb]:h-10 
     [&::-webkit-slider-thumb]:w-10 
-    [&::-webkit-slider-thumb]:cursor-pointer  
+    [&::-webkit-slider-thumb]:cursor-pointer 
     [&::-webkit-slider-thumb]:appearance-none 
-    [&::-webkit-slider-thumb]:rounded-full 
+    [&::-webkit-slider-thumb]:rounded-full
     [&::-webkit-slider-thumb]:bg-primary-strong-cyan 
-    [&::-webkit-slider-thumb]:bg-svg-slider 
-    [&::-webkit-slider-thumb]:bg-center 
+
+    [&::-webkit-slider-thumb]:bg-svg-slider [&::-webkit-slider-thumb]:bg-center  
     [&::-webkit-slider-thumb]:bg-no-repeat
-    [&::-webkit-slider-thumb]:active:brightness-75;
+    [&::-webkit-slider-thumb]:shadow-[0_12px_25px_5px];
   }
 
   /* Basic styles for mobile and desktop */
