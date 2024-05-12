@@ -1,7 +1,8 @@
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useState } from 'react';
 
 function PriceSlider() {
   const [thumb, setThumb] = useState(50);
+  const [initRender, setInitRender] = useState(true);
 
   function handleSlide(data) {
     setThumb(data.target.value);
@@ -18,6 +19,7 @@ function PriceSlider() {
         '%, hsl(224, 65%, 95%) ' +
         value +
         '%, hsl(224, 65%, 95%) 100%)';
+      setInitRender(false);
     };
   }, []);
 
@@ -26,7 +28,7 @@ function PriceSlider() {
       <p>Pricing Component</p>
       <div className="flex justify-center">
         <input
-          className="slider h-2"
+          className={`slider h-2 ${initRender ? 'track' : ''}`}
           type="range"
           min={1}
           max={100}

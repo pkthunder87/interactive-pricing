@@ -11,20 +11,34 @@
     @apply relative h-4  w-full 
     appearance-none
     rounded-full
-     [&::-webkit-slider-runnable-track]:h-2
-    [&::-webkit-slider-runnable-track]:appearance-none 
-    [&::-webkit-slider-runnable-track]:overflow-visible 
-    [&::-webkit-slider-runnable-track]:rounded-full  
-    [&::-webkit-slider-thumb]:-mt-4 
+     [&::-moz-range-thumb]:-mt-4
+    [&::-moz-range-thumb]:h-10 
+    [&::-moz-range-thumb]:w-10 
+    [&::-moz-range-thumb]:cursor-pointer 
+    [&::-moz-range-thumb]:appearance-none  
+    [&::-moz-range-thumb]:rounded-full 
+    [&::-moz-range-thumb]:border-none 
+    [&::-moz-range-thumb]:bg-primary-strong-cyan 
+    [&::-moz-range-thumb]:bg-svg-slider 
+    [&::-moz-range-thumb]:bg-center 
+    [&::-moz-range-thumb]:bg-no-repeat
+    [&::-moz-range-thumb]:active:brightness-75
+    [&::-webkit-slider-runnable-track]:h-2
+    [&::-webkit-slider-runnable-track]:appearance-none
+    [&::-webkit-slider-runnable-track]:overflow-visible
+    [&::-webkit-slider-runnable-track]:rounded-full
+
+    [&::-webkit-slider-thumb]:-mt-4
     [&::-webkit-slider-thumb]:h-10 
     [&::-webkit-slider-thumb]:w-10 
-    [&::-webkit-slider-thumb]:cursor-pointer 
+    [&::-webkit-slider-thumb]:cursor-pointer  
     [&::-webkit-slider-thumb]:appearance-none 
-    [&::-webkit-slider-thumb]:rounded-full
-    [&::-webkit-slider-thumb]:bg-primary-strong-cyan
-    [&::-webkit-slider-thumb]:bg-svg-slider
-    [&::-webkit-slider-thumb]:bg-center
-    [&::-webkit-slider-thumb]:bg-no-repeat;
+    [&::-webkit-slider-thumb]:rounded-full 
+    [&::-webkit-slider-thumb]:bg-primary-strong-cyan 
+    [&::-webkit-slider-thumb]:bg-svg-slider 
+    [&::-webkit-slider-thumb]:bg-center 
+    [&::-webkit-slider-thumb]:bg-no-repeat
+    [&::-webkit-slider-thumb]:active:brightness-75;
   }
 
   /* Basic styles for mobile and desktop */
@@ -32,4 +46,14 @@
     @apply flex h-fit w-[100dvw] items-center justify-center bg-neutral-very-pale-blue bg-svg-background bg-no-repeat text-neutral-grayish-blue antialiased sm:h-[100dvh]
     sm:bg-[left_-1rem_top_-4rem] lg:bg-[left_0rem_top_0rem];
   }
+}
+
+.track {
+  background: linear-gradient(
+    to right,
+    hsl(174, 77%, 80%) 0%,
+    hsl(174, 86%, 45%),
+    hsl(174, 77%, 80%),
+    hsl(224, 65%, 95%) 50%
+  );
 }
