@@ -22,17 +22,27 @@ function PriceSlider() {
 
   return (
     <div className="h-full w-[50dvw] rounded-md bg-neutral-white p-10 shadow-lg">
-      <p>Pricing Component</p>
-      <div className="flex justify-center">
-        <input
-          className={`slider track h-2 `}
-          type="range"
-          min={1}
-          max={100}
-          value={thumb}
-          onChange={handleSlide}
-          id="slider"
-        />
+      <div className="grid grid-cols-2 items-center gap-8">
+        <p className="text-[.6rem] font-extrabold tracking-widest">
+          100K PAGEVIEWS
+        </p>
+        <div className="flex items-center justify-self-end">
+          <h2 className="text-2xl font-extrabold text-neutral-dark-desaturated-blue">
+            $16.00
+          </h2>
+          <p className="ml-2 mt-1 text-[.6rem] font-semibold"> / month</p>
+        </div>
+        <div className="col-span-2 flex justify-center">
+          <input
+            className={`slider track h-2 `}
+            type="range"
+            min={1}
+            max={100}
+            value={thumb}
+            onChange={handleSlide}
+            id="slider"
+          />
+        </div>
       </div>
     </div>
   );
