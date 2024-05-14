@@ -27,12 +27,12 @@ function PriceSlider() {
           100K PAGEVIEWS
         </p>
         <div className="flex items-center justify-self-end">
-          <h2 className="text-2xl font-extrabold text-neutral-dark-desaturated-blue">
+          <h2 className="text-3xl font-extrabold text-neutral-dark-desaturated-blue">
             $16.00
           </h2>
           <p className="ml-2 mt-1 text-[.6rem] font-semibold"> / month</p>
         </div>
-        <div className="col-span-2 flex justify-center">
+        <div className="col-span-2 mt-3 flex justify-center">
           <input
             className={`slider track h-2 `}
             type="range"
@@ -42,6 +42,18 @@ function PriceSlider() {
             onChange={handleSlide}
             id="slider"
           />
+        </div>
+      </div>
+      <div className="mr-4 mt-12 flex items-center justify-end text-[.58rem] font-semibold">
+        {/* From https://flowbite.com/docs/forms/toggle/ */}
+        <label className="inline-flex cursor-pointer items-center">
+          <p className="mr-4">Monthly Billing</p>
+          <input type="checkbox" value="" className="peer sr-only" />
+          <div className="after:border-neutral-light-grayish peer relative h-4 w-8 rounded-full bg-neutral-light-grayish-blue-toggle after:absolute after:start-[2px] after:top-[2px] after:h-[.8rem] after:w-[.8rem] after:rounded-full after:border after:bg-white after:transition-all after:content-[''] peer-checked:bg-primary-strong-cyan peer-checked:after:translate-x-full "></div>
+        </label>
+        <p className="ml-4">Yearly Billing</p>
+        <div className="ml-2 rounded-full bg-primary-light-grayish-red px-[.3rem] py-[.2rem] font-extrabold text-primary-light-red">
+          25% discount
         </div>
       </div>
     </div>
