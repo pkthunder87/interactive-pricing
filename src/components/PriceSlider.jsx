@@ -32,7 +32,7 @@ function PriceSlider() {
           </h2>
           <p className="ml-2 mt-1 text-[.6rem] font-semibold"> / month</p>
         </div>
-        <div className="col-span-2 mt-3 flex justify-center">
+        <div className="col-span-2 mt-1 flex justify-center">
           <input
             className={`slider track h-2 `}
             type="range"
@@ -54,6 +54,28 @@ function PriceSlider() {
         <p className="ml-4">Yearly Billing</p>
         <div className="ml-2 rounded-full bg-primary-light-grayish-red px-[.3rem] py-[.2rem] font-extrabold text-primary-light-red">
           25% discount
+        </div>
+      </div>
+      <hr className="-mx-10 mt-8" />
+      <div className="grid h-[44%] grid-cols-[55%_45%] items-center">
+        <div className="flex flex-col gap-2 text-[.6rem] font-semibold">
+          <div className="flex items-center gap-3 ">
+            <img src="icon-check.svg" alt="checkmark" className="h-2 w-2" />
+            <p>Unlimited websites</p>
+          </div>
+          <div className="flex items-center gap-3 ">
+            <img src="icon-check.svg" alt="checkmark" className="h-2 w-2" />
+            <p>100% data ownership</p>
+          </div>
+          <div className="flex items-center gap-3 ">
+            <img src="icon-check.svg" alt="checkmark" className="h-2 w-2" />
+            <p>Email reports</p>
+          </div>
+        </div>
+        <div className="flex justify-end">
+          <button className="h-8 w-[80%] rounded-full bg-neutral-dark-desaturated-blue text-[.58rem]  font-extrabold  text-primary-pale-blue">
+            Start my trial
+          </button>
         </div>
       </div>
     </div>

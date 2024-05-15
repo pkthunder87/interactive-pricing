@@ -6,7 +6,7 @@ function AppLayout() {
     <div className="grid h-[100dvh] w-[100dvw] grid-rows-[35%_50%_15%] justify-center   ">
       <Header />
       <PriceSlider />
-      <div className=" ">Bottom</div>
+      <div className=" "></div>
     </div>
   );
 }
