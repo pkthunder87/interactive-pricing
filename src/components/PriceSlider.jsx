@@ -44,12 +44,12 @@ function PriceSlider() {
           />
         </div>
       </div>
-      <div className="mr-4 mt-12 flex items-center justify-end text-[.58rem] font-semibold">
+      <div className="mr-3 mt-12 flex items-center justify-end text-[.58rem] font-semibold">
         {/* From https://flowbite.com/docs/forms/toggle/ */}
-        <label className="inline-flex cursor-pointer items-center">
+        <label className="inline-flex items-center">
           <p className="mr-4">Monthly Billing</p>
           <input type="checkbox" value="" className="peer sr-only" />
-          <div className="after:border-neutral-light-grayish peer relative h-4 w-8 rounded-full bg-neutral-light-grayish-blue-toggle after:absolute after:start-[2px] after:top-[2px] after:h-[.8rem] after:w-[.8rem] after:rounded-full after:border after:bg-white after:transition-all after:content-[''] peer-checked:bg-primary-strong-cyan peer-checked:after:translate-x-full "></div>
+          <div className="after:border-neutral-light-grayish peer relative h-[1.15rem] w-9 cursor-pointer rounded-full bg-neutral-light-grayish-blue-toggle after:absolute after:start-[2px] after:top-[2px] after:h-[.9rem] after:w-[.9rem] after:rounded-full after:border after:bg-white after:transition-all after:content-[''] peer-checked:bg-primary-strong-cyan peer-checked:after:translate-x-full"></div>
         </label>
         <p className="ml-4">Yearly Billing</p>
         <div className="ml-2 rounded-full bg-primary-light-grayish-red px-[.3rem] py-[.2rem] font-extrabold text-primary-light-red">
