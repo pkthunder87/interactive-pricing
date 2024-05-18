@@ -45,7 +45,9 @@ function PriceSlider() {
         </div>
       </div>
       <div className="mr-3 mt-12 flex items-center justify-end text-[.58rem] font-semibold">
-        {/* From https://flowbite.com/docs/forms/toggle/ */}
+        {/* From https://flowbite.com/docs/forms/toggle/ 
+        Adjust after:start, after:top after:h to change toggle circle size
+        */}
         <label className="inline-flex items-center">
           <p className="mr-4">Monthly Billing</p>
           <input type="checkbox" value="" className="peer sr-only" />
