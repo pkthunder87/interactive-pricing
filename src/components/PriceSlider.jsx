@@ -21,7 +21,7 @@ function PriceSlider() {
   }, []);
 
   return (
-    <div className="h-full w-[50dvw] rounded-md bg-neutral-white p-10 shadow-lg">
+    <div className="h-full w-[50dvw] rounded-md bg-neutral-white p-10 shadow-lg xl3:-mt-5">
       <div className="grid grid-cols-2 items-center gap-8">
         <p className="text-[.6rem] font-extrabold tracking-widest">
           100K PAGEVIEWS
