@@ -67,22 +67,34 @@ function PriceSlider() {
       </div>
       <hr className="-mx-10 mt-8 xl3:-ml-11 xl3:-mr-[3.16rem] xl3:mt-[2.6rem] " />
       <div className="grid h-[44%] grid-cols-[55%_45%] items-center">
-        <div className="flex flex-col gap-2 text-[.6rem] font-semibold">
-          <div className="flex items-center gap-3 ">
-            <img src="icon-check.svg" alt="checkmark" className="h-2 w-2" />
+        <div className="flex flex-col gap-[.62rem] text-[.6rem] font-semibold xl3:-mt-0 xl3:ml-[.15rem] xl3:text-[.75rem]">
+          <div className="flex items-center gap-[.91rem] ">
+            <img
+              src="icon-check.svg"
+              alt="checkmark"
+              className="h-2 w-2 xl3:h-[.5rem] xl3:w-[.55rem]"
+            />
             <p>Unlimited websites</p>
           </div>
-          <div className="flex items-center gap-3 ">
-            <img src="icon-check.svg" alt="checkmark" className="h-2 w-2" />
+          <div className="flex items-center gap-[.91rem] ">
+            <img
+              src="icon-check.svg"
+              alt="checkmark"
+              className="h-2 w-2 xl3:h-[.5rem] xl3:w-[.55rem]"
+            />
             <p>100% data ownership</p>
           </div>
-          <div className="flex items-center gap-3 ">
-            <img src="icon-check.svg" alt="checkmark" className="h-2 w-2" />
+          <div className="flex items-center gap-[.91rem] ">
+            <img
+              src="icon-check.svg"
+              alt="checkmark"
+              className="h-2 w-2 xl3:h-[.5rem] xl3:w-[.55rem]"
+            />
             <p>Email reports</p>
           </div>
         </div>
         <div className="flex justify-end">
-          <button className="h-8 w-[80%] rounded-full bg-neutral-dark-desaturated-blue text-[.58rem]  font-extrabold  text-primary-pale-blue">
+          <button className="h-8 w-[80%] rounded-full bg-neutral-dark-desaturated-blue text-[.58rem] font-extrabold  text-primary-pale-blue  xl3:-mr-[.3rem] xl3:h-[2.6rem] xl3:w-[84.5%] xl3:text-[.75rem]">
             Start my trial
           </button>
         </div>
