@@ -21,16 +21,16 @@ function PriceSlider() {
   }, []);
 
   return (
-    <div className="h-full w-[50dvw] rounded-md bg-neutral-white p-10 shadow-lg xl3:-mt-5 xl3:w-[37.58dvw] xl3:rounded-[.6rem] xl3:py-11 xl3:pl-11 xl3:pr-[3.16rem]">
-      <div className="grid grid-cols-2 items-center gap-8  xl3:mt-[.4rem]">
-        <p className=" text-[.6rem] font-extrabold tracking-[.12em] xl3:text-[.9rem]">
+    <div className="h-full w-[84dvw] rounded-md bg-neutral-white p-12 shadow-lg md:w-[50dvw] md:p-10 xl3:-mt-5 xl3:w-[37.58dvw] xl3:rounded-[.6rem] xl3:py-11 xl3:pl-11 xl3:pr-[3.16rem]">
+      <div className="grid  items-center gap-8  xl3:mt-[.4rem]">
+        <p className=" col-span-2 text-center text-xl font-extrabold tracking-[.12em] md:col-span-1 md:text-left md:text-[.6rem] xl3:text-[.9rem]">
           100K PAGEVIEWS
         </p>
-        <div className="flex items-center justify-self-end">
-          <h2 className="text-3xl font-extrabold text-neutral-dark-desaturated-blue  xl3:text-[2.5rem] xl3:tracking-[-.02em]">
+        <div className="order-last col-span-2 flex items-center justify-center md:order-none md:col-span-1 md:justify-self-end">
+          <h2 className="text-5xl font-extrabold text-neutral-dark-desaturated-blue md:text-3xl xl3:text-[2.5rem] xl3:tracking-[-.02em]">
             $16.00
           </h2>
-          <p className="ml-2 mt-1 text-[.6rem] font-semibold xl3:mt-0 xl3:text-base">
+          <p className="ml-2 mt-1 text-xl font-semibold md:text-[.6rem] xl3:mt-0 xl3:text-base">
             {' '}
             / month
           </p>
@@ -47,7 +47,7 @@ function PriceSlider() {
           />
         </div>
       </div>
-      <div className="mr-3 mt-12 flex items-center justify-end text-[.58rem] font-semibold xl3:mt-[3.4rem] xl3:text-xs">
+      <div className="mr-3 mt-12 flex items-center justify-end text-xl font-semibold md:text-[.58rem] xl3:mt-[3.4rem] xl3:text-xs">
         {/* From https://flowbite.com/docs/forms/toggle/ 
         Adjust after:start, after:top after:h to change toggle circle size
         */}
@@ -66,8 +66,11 @@ function PriceSlider() {
         </div>
       </div>
       <hr className="-mx-10 mt-8 xl3:-ml-11 xl3:-mr-[3.16rem] xl3:mt-[2.6rem] " />
-      <div className="grid h-[44%] grid-cols-[55%_45%] items-center">
-        <div className="flex flex-col gap-[.62rem] text-[.6rem] font-semibold xl3:-mt-0 xl3:ml-[.15rem] xl3:text-[.75rem]">
+      <div className="grid h-[44%] items-center md:grid-cols-[55%_45%] md:justify-normal">
+        <div
+          className="flex flex-col items-center gap-[.62rem] text-xl
+        font-semibold md:items-start md:gap-[.1rem] md:text-[.6rem] xl3:-mt-0 xl3:ml-[.15rem] xl3:text-[.75rem]"
+        >
           <div className="flex items-center gap-[.91rem] ">
             <img
               src="icon-check.svg"
@@ -93,8 +96,8 @@ function PriceSlider() {
             <p>Email reports</p>
           </div>
         </div>
-        <div className="flex justify-end">
-          <button className="h-8 w-[80%] rounded-full bg-neutral-dark-desaturated-blue text-[.58rem] font-extrabold  text-primary-pale-blue  xl3:-mr-[.3rem] xl3:h-[2.6rem] xl3:w-[84.5%] xl3:text-[.75rem]">
+        <div className="flex justify-center md:justify-end">
+          <button className="h-14 w-[55%] rounded-full bg-neutral-dark-desaturated-blue text-xl font-extrabold text-primary-pale-blue md:h-8 md:w-[80%]  md:text-[.58rem]  xl3:-mr-[.3rem] xl3:h-[2.6rem] xl3:w-[84.5%] xl3:text-[.75rem]">
             Start my trial
           </button>
         </div>
