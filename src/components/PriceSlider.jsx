@@ -21,7 +21,7 @@ function PriceSlider() {
   }, []);
 
   return (
-    <div className="h-full w-[84dvw] rounded-md bg-neutral-white p-12 shadow-lg md:w-[50dvw] md:p-10 xl3:-mt-5 xl3:w-[37.58dvw] xl3:rounded-[.6rem] xl3:py-11 xl3:pl-11 xl3:pr-[3.16rem]">
+    <div className="h-full w-[84dvw] rounded-md bg-neutral-white p-12 shadow-lg md:w-[50dvw] md:p-10 xl3:-mt-5 xl3:w-[37.58dvw] xl3:rounded-[.6rem] xl3:py-11 xl3:pl-11 xl3:pr-[3.16rem] ">
       <div className="grid  items-center gap-8  xl3:mt-[.4rem]">
         <p className=" col-span-2 text-center text-xl font-extrabold tracking-[.12em] md:col-span-1 md:text-left md:text-[.6rem] xl3:text-[.9rem]">
           100K PAGEVIEWS
