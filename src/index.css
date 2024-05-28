@@ -55,9 +55,12 @@
 
   /* Basic styles for mobile and desktop */
   body {
-    @apply flex h-fit w-[100dvw] items-center justify-center bg-neutral-very-pale-blue bg-svg-background bg-no-repeat text-neutral-grayish-blue antialiased sm:h-[100dvh]
-    sm:bg-auto
-    sm:bg-[left_-1rem_top_-4rem] lg:bg-[left_0rem_top_0rem];
+    @apply flex h-fit w-[100dvw] items-center justify-center bg-neutral-very-pale-blue bg-svg-background
+    bg-cover
+    bg-[left_0rem_top_-30rem]
+bg-no-repeat text-neutral-grayish-blue antialiased md:h-[100dvh]
+    md:bg-auto
+    md:bg-[left_-1rem_top_-4rem] lg:bg-[left_0rem_top_0rem];
   }
 }
 
