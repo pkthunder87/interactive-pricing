@@ -21,16 +21,16 @@ function PriceSlider() {
   }, []);
 
   return (
-    <div className="h-full w-[87dvw] rounded-md bg-neutral-white p-12 shadow-lg md:w-[50dvw] md:p-10 xl3:-mt-5 xl3:w-[37.58dvw] xl3:rounded-[.6rem] xl3:py-11 xl3:pl-11 xl3:pr-[3.16rem] ">
-      <div className="grid  items-center gap-8  xl3:mt-[.4rem]">
-        <p className=" col-span-2 text-center text-xl font-extrabold tracking-[.12em] md:col-span-1 md:text-left md:text-[.6rem] xl3:text-[.9rem]">
+    <div className="h-full w-[87dvw] rounded-2xl bg-neutral-white p-12 shadow-lg md:w-[50dvw] md:rounded-md md:p-10 xl3:-mt-5 xl3:w-[37.58dvw] xl3:rounded-[.6rem] xl3:py-11 xl3:pl-11 xl3:pr-[3.16rem] ">
+      <div className="grid  items-center gap-16 md:gap-8  xl3:mt-[.4rem]">
+        <p className=" col-span-2 text-center text-2xl font-extrabold tracking-[.12em] md:col-span-1 md:text-left md:text-[.6rem] xl3:text-[.9rem]">
           100K PAGEVIEWS
         </p>
         <div className="order-last col-span-2 flex items-center justify-center md:order-none md:col-span-1 md:justify-self-end">
-          <h2 className="text-5xl font-extrabold text-neutral-dark-desaturated-blue md:text-3xl xl3:text-[2.5rem] xl3:tracking-[-.02em]">
+          <h2 className="text-6xl font-extrabold text-neutral-dark-desaturated-blue md:text-3xl xl3:text-[2.5rem] xl3:tracking-[-.02em]">
             $16.00
           </h2>
-          <p className="ml-2 mt-1 text-xl font-semibold md:text-[.6rem] xl3:mt-0 xl3:text-base">
+          <p className="ml-2 mt-1 text-[1.7rem] font-semibold md:text-[.6rem] xl3:mt-0 xl3:text-base">
             {' '}
             / month
           </p>
