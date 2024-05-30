@@ -19,36 +19,47 @@
     w-full 
     appearance-none 
     rounded-full 
-    [&::-moz-range-thumb]:-mt-[.8rem] 
-    [&::-moz-range-thumb]:h-9  
-    [&::-moz-range-thumb]:w-9 
+    md:bg-auto 
+    [&::-moz-range-thumb]:-mt-[.8rem]  
+    [&::-moz-range-thumb]:h-20 
+    [&::-moz-range-thumb]:w-20  
     [&::-moz-range-thumb]:cursor-pointer 
     [&::-moz-range-thumb]:appearance-none 
     [&::-moz-range-thumb]:rounded-full 
-    [&::-moz-range-thumb]:border-none  
-    [&::-moz-range-thumb]:bg-primary-strong-cyan 
-    [&::-moz-range-thumb]:bg-svg-slider
+    [&::-moz-range-thumb]:border-none 
+    [&::-moz-range-thumb]:bg-primary-strong-cyan [&::-moz-range-thumb]:bg-svg-slider   
+    [&::-moz-range-thumb]:bg-[length:45px_25px]
     [&::-moz-range-thumb]:bg-center
-    [&::-moz-range-thumb]:bg-no-repeat
-
-    [&::-moz-range-thumb]:shadow-[0_14px_25px_2px] [&::-moz-range-thumb]:shadow-shadow-cyan [&::-moz-range-thumb]:active:bg-active-cyan [&::-moz-range-thumb]:xl3:h-10 [&::-moz-range-thumb]:xl3:w-10
+    [&::-moz-range-thumb]:bg-no-repeat   
+    [&::-moz-range-thumb]:shadow-[0_14px_25px_2px] 
+    [&::-moz-range-thumb]:shadow-shadow-cyan
+    [&::-moz-range-thumb]:active:bg-active-cyan
+    md:[&::-moz-range-thumb]:h-9
+    md:[&::-moz-range-thumb]:w-9 md:[&::-moz-range-thumb]:bg-svg-slider md:[&::-moz-range-thumb]:bg-auto [&::-moz-range-thumb]:xl3:h-10 [&::-moz-range-thumb]:xl3:w-10
+    
+    
     [&::-webkit-slider-runnable-track]:h-2
     [&::-webkit-slider-runnable-track]:appearance-none
     [&::-webkit-slider-runnable-track]:overflow-visible 
     [&::-webkit-slider-runnable-track]:rounded-full 
-    [&::-webkit-slider-thumb]:-mt-[.8rem]  
-    [&::-webkit-slider-thumb]:h-9  
-    [&::-webkit-slider-thumb]:w-9 
-    [&::-webkit-slider-thumb]:cursor-pointer  
-    [&::-webkit-slider-thumb]:appearance-none 
+    [&::-webkit-slider-thumb]:-mt-[2.2rem]  
+    [&::-webkit-slider-thumb]:h-20
+    [&::-webkit-slider-thumb]:w-20  
+    [&::-webkit-slider-thumb]:cursor-pointer 
+    [&::-webkit-slider-thumb]:appearance-none  
     [&::-webkit-slider-thumb]:rounded-full 
-    [&::-webkit-slider-thumb]:bg-primary-strong-cyan 
+    [&::-webkit-slider-thumb]:bg-primary-strong-cyan  
     [&::-webkit-slider-thumb]:bg-svg-slider 
+    [&::-webkit-slider-thumb]:bg-[length:45px_25px] 
     [&::-webkit-slider-thumb]:bg-center 
-    [&::-webkit-slider-thumb]:bg-no-repeat
-    [&::-webkit-slider-thumb]:shadow-[0_14px_25px_2px]   
+    [&::-webkit-slider-thumb]:bg-no-repeat 
+    [&::-webkit-slider-thumb]:shadow-[0_14px_25px_2px] 
+    [&::-webkit-slider-thumb]:shadow-shadow-cyan 
+    [&::-webkit-slider-thumb]:active:bg-active-cyan 
+    md:[&::-webkit-slider-thumb]:-mt-[.8rem]
+    md:[&::-webkit-slider-thumb]:h-9   
 
-    [&::-webkit-slider-thumb]:shadow-shadow-cyan [&::-webkit-slider-thumb]:active:bg-active-cyan  
+    md:[&::-webkit-slider-thumb]:w-9 md:[&::-webkit-slider-thumb]:bg-auto  
     [&::-webkit-slider-thumb]:xl3:h-10
     [&::-webkit-slider-thumb]:xl3:w-10;
   }

@@ -37,7 +37,7 @@ function PriceSlider() {
         </div>
         <div className="col-span-2 mt-1 flex justify-center xl3:mt-[1.1rem]">
           <input
-            className={`slider track h-2 `}
+            className={`slider track h-4 md:h-2 `}
             type="range"
             min={1}
             max={100}
