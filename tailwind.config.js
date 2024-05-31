@@ -6,7 +6,7 @@ export default {
       sans: 'Manrope',
     },
     screens: {
-      sm: '501px',
+      sm: '401px',
       md: '751px',
       lg: '900px',
       xl: '1030px',
