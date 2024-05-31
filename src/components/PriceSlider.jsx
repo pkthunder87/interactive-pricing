@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 
 function PriceSlider() {
   const [thumb, setThumb] = useState(51);
+  const [isMobile, setIsMobile] = useState(false);
 
   function handleSlide(data) {
     setThumb(data.target.value);
@@ -18,6 +19,16 @@ function PriceSlider() {
         this.value +
         '%)';
     };
+  }, []);
+
+  useEffect(() => {
+    if (window.innerWidth < 751) {
+      setIsMobile(true);
+      console.log('True');
+      console.log(window.screen.width);
+    } else {
+      setIsMobile(false);
+    }
   }, []);
 
   return (
@@ -47,7 +58,7 @@ function PriceSlider() {
           />
         </div>
       </div>
-      <div className="mr-3 mt-12 flex items-center justify-end text-xl font-semibold md:text-[.58rem] xl3:mt-[3.4rem] xl3:text-xs">
+      <div className="-mr-5 mt-12 flex items-center justify-end text-[1.5rem] font-semibold md:mr-3 md:text-[.58rem] xl3:mt-[3.4rem] xl3:text-xs">
         {/* From https://flowbite.com/docs/forms/toggle/ 
         Adjust after:start, after:top after:h to change toggle circle size
         */}
@@ -61,8 +72,13 @@ function PriceSlider() {
           ></div>
         </label>
         <p className="ml-4">Yearly Billing</p>
-        <div className="ml-2 rounded-full bg-primary-light-grayish-red px-[.3rem] py-[.2rem] font-extrabold text-primary-light-red xl3:mr-[.3rem] xl3:px-[.4rem] xl3:py-[.1rem] xl3:text-[.62rem]">
-          25% discount
+
+        <div
+          className="ml-2 rounded-full bg-primary-light-grayish-red px-[.8rem] 
+        py-[.22rem] text-[1.15rem]
+        font-extrabold text-primary-light-red md:px-[.3rem] md:py-[.2rem] md:text-[.58rem] xl3:mr-[.3rem] xl3:px-[.4rem] xl3:py-[.1rem] xl3:text-[.62rem]"
+        >
+          {isMobile ? '-25%' : '25% discount'}
         </div>
       </div>
       <hr className="-mx-10 mt-8 xl3:-ml-11 xl3:-mr-[3.16rem] xl3:mt-[2.6rem] " />
