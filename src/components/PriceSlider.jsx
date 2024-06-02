@@ -62,16 +62,19 @@ function PriceSlider() {
         {/* From https://flowbite.com/docs/forms/toggle/ 
         Adjust after:start, after:top after:h to change toggle circle size
         */}
-        <label className="inline-flex items-center">
+        <label className="inline-flex items-center gap-2 md:gap-0">
           <p className="mr-[1.1rem]">Monthly Billing</p>
           <input type="checkbox" value="" className="peer sr-only" />
           <div
-            className="after:border-neutral-light-grayish peer relative h-[1.15rem] w-9 cursor-pointer rounded-full bg-neutral-light-grayish-blue-toggle after:absolute 
-          after:start-[2px] after:top-[2px] after:h-[.9rem] after:w-[.9rem]
-          after:rounded-full after:border after:bg-white after:transition-all after:content-[''] peer-checked:bg-primary-strong-cyan peer-checked:after:translate-x-full xl3:mr-[.1rem] xl3:h-[1.35rem] xl3:w-[2.6rem] after:xl3:start-[4px] after:xl3:top-[3px] after:xl3:h-[.95rem] after:xl3:w-[.95rem]"
+            className="after:border-neutral-light-grayish peer relative h-10 w-20 cursor-pointer rounded-full bg-neutral-light-grayish-blue-toggle after:absolute 
+            after:start-[7px] 
+            after:top-[6px] 
+            after:h-[1.7rem] after:w-[1.7rem] after:rounded-full after:border
+          after:bg-white after:transition-all after:content-[''] peer-checked:bg-primary-strong-cyan
+          peer-checked:after:translate-x-full md:h-[1.15rem] md:w-9 md:after:start-[2px] md:after:top-[2px] md:after:h-[.9rem] md:after:w-[.9rem] xl3:mr-[.1rem] xl3:h-[1.35rem] xl3:w-[2.6rem] after:xl3:start-[4px] after:xl3:top-[3px] after:xl3:h-[.95rem] after:xl3:w-[.95rem]"
           ></div>
         </label>
-        <p className="ml-4">Yearly Billing</p>
+        <p className="ml-6 mr-1 md:mr-0">Yearly Billing</p>
 
         <div
           className="ml-2 rounded-full bg-primary-light-grayish-red px-[.8rem] 
