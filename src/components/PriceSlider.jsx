@@ -87,7 +87,7 @@ function PriceSlider() {
       <hr className="-mx-10 mt-8 xl3:-ml-11 xl3:-mr-[3.16rem] xl3:mt-[2.6rem] " />
       <div className="grid h-[44%] items-center md:grid-cols-[55%_45%] md:justify-normal">
         <div
-          className="flex flex-col items-center gap-[.62rem] text-xl
+          className="flex flex-col items-center gap-[.62rem] text-2xl
         font-semibold md:items-start md:gap-[.1rem] md:text-[.6rem] xl3:-mt-0 xl3:ml-[.15rem] xl3:text-[.75rem]"
         >
           <div className="flex items-center gap-[.91rem] ">
