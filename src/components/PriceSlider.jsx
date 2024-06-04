@@ -116,7 +116,7 @@ function PriceSlider() {
           </div>
         </div>
         <div className="flex justify-center md:justify-end">
-          <button className="h-14 w-[55%] rounded-full bg-neutral-dark-desaturated-blue text-xl font-extrabold text-primary-pale-blue md:h-8 md:w-[80%]  md:text-[.58rem]  xl3:-mr-[.3rem] xl3:h-[2.6rem] xl3:w-[84.5%] xl3:text-[.75rem]">
+          <button className="h-14 w-[55%] rounded-full bg-neutral-dark-desaturated-blue text-3xl font-extrabold text-primary-pale-blue md:h-8 md:w-[80%]  md:text-[.58rem]  xl3:-mr-[.3rem] xl3:h-[2.6rem] xl3:w-[84.5%] xl3:text-[.75rem]">
             Start my trial
           </button>
         </div>
