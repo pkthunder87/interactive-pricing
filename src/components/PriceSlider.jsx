@@ -33,7 +33,7 @@ function PriceSlider() {
 
   return (
     <div className="h-full w-[87dvw] rounded-2xl bg-neutral-white p-12 shadow-lg md:w-[50dvw] md:rounded-md md:p-10 xl3:-mt-5 xl3:w-[37.58dvw] xl3:rounded-[.6rem] xl3:py-11 xl3:pl-11 xl3:pr-[3.16rem] ">
-      <div className="grid  items-center gap-16 md:gap-8  xl3:mt-[.4rem]">
+      <div className="grid  items-center gap-20 md:gap-8  xl3:mt-[.4rem]">
         <p className=" col-span-2 text-center text-2xl font-extrabold tracking-[.12em] md:col-span-1 md:text-left md:text-[.6rem] xl3:text-[.9rem]">
           100K PAGEVIEWS
         </p>
@@ -58,7 +58,7 @@ function PriceSlider() {
           />
         </div>
       </div>
-      <div className="-mr-5 mt-12 flex items-center justify-end text-[1.5rem] font-semibold md:mr-3 md:text-[.58rem] xl3:mt-[3.4rem] xl3:text-xs">
+      <div className="-mr-5 mt-16 flex items-center justify-end text-[1.5rem] font-semibold md:mr-3 md:mt-12 md:text-[.58rem] xl3:mt-[3.4rem] xl3:text-xs">
         {/* From https://flowbite.com/docs/forms/toggle/ 
         Adjust after:start, after:top after:h to change toggle circle size
         */}
@@ -84,7 +84,7 @@ function PriceSlider() {
           {isMobile ? '-25%' : '25% discount'}
         </div>
       </div>
-      <hr className="-mx-10 mt-8 xl3:-ml-11 xl3:-mr-[3.16rem] xl3:mt-[2.6rem] " />
+      <hr className="-mx-[3rem] mt-[4.5rem] md:-mx-10 md:mt-8 xl3:-ml-11 xl3:-mr-[3.16rem] xl3:mt-[2.6rem] " />
       <div className="grid h-[44%] items-center md:grid-cols-[55%_45%] md:justify-normal">
         <div
           className="flex flex-col items-center gap-[.62rem] text-2xl
