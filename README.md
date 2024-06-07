@@ -20,6 +20,7 @@ This is a solution to the [Interactive pricing component challenge on Frontend M
 - Vite
 - React
 - Tailwind CSS
+- Google Fonts
 
 ## Author
 
