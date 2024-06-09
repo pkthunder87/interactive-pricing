@@ -90,27 +90,27 @@ function PriceSlider() {
           className="flex flex-col items-center gap-[.62rem] text-2xl
         font-semibold md:items-start md:gap-[.1rem] md:text-[.6rem] xl3:-mt-0 xl3:ml-[.15rem] xl3:text-[.75rem]"
         >
-          <div className="flex items-center gap-[.91rem] ">
+          <div className="flex items-center gap-7 md:gap-[.91rem] ">
             <img
               src="icon-check.svg"
               alt="checkmark"
-              className="h-2 w-2 xl3:h-[.5rem] xl3:w-[.55rem]"
+              className="h-4 w-4 md:h-2 md:w-2 xl3:h-[.5rem] xl3:w-[.55rem]"
             />
             <p>Unlimited websites</p>
           </div>
-          <div className="flex items-center gap-[.91rem] ">
+          <div className="flex items-center gap-7 md:gap-[.91rem] ">
             <img
               src="icon-check.svg"
               alt="checkmark"
-              className="h-2 w-2 xl3:h-[.5rem] xl3:w-[.55rem]"
+              className="h-4 w-4 md:h-2 md:w-2 xl3:h-[.5rem] xl3:w-[.55rem]"
             />
             <p>100% data ownership</p>
           </div>
-          <div className="flex items-center gap-[.91rem] ">
+          <div className="flex items-center gap-7 md:gap-[.91rem] ">
             <img
               src="icon-check.svg"
               alt="checkmark"
-              className="h-2 w-2 xl3:h-[.5rem] xl3:w-[.55rem]"
+              className="h-4 w-4 md:h-2 md:w-2 xl3:h-[.5rem] xl3:w-[.55rem]"
             />
             <p>Email reports</p>
           </div>
