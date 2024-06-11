@@ -87,7 +87,7 @@ function PriceSlider() {
       <hr className="-mx-[3rem] mt-[4.5rem] md:-mx-10 md:mt-8 xl3:-ml-11 xl3:-mr-[3.16rem] xl3:mt-[2.6rem] " />
       <div className="grid h-[44%] items-center md:grid-cols-[55%_45%] md:justify-normal">
         <div
-          className="flex flex-col items-center gap-[.62rem] text-2xl
+          className="flex flex-col items-center gap-[1.5rem] text-2xl
         font-semibold md:items-start md:gap-[.1rem] md:text-[.6rem] xl3:-mt-0 xl3:ml-[.15rem] xl3:text-[.75rem]"
         >
           <div className="flex items-center gap-7 md:gap-[.91rem] ">
@@ -115,8 +115,8 @@ function PriceSlider() {
             <p>Email reports</p>
           </div>
         </div>
-        <div className="flex justify-center md:justify-end">
-          <button className="h-14 w-[55%] rounded-full bg-neutral-dark-desaturated-blue text-3xl font-extrabold text-primary-pale-blue md:h-8 md:w-[80%]  md:text-[.58rem]  xl3:-mr-[.3rem] xl3:h-[2.6rem] xl3:w-[84.5%] xl3:text-[.75rem]">
+        <div className="-mt-12 flex justify-center md:mt-0 md:justify-end">
+          <button className="h-[5.2rem] w-[60%] rounded-full bg-neutral-dark-desaturated-blue text-2xl font-extrabold text-primary-pale-blue md:h-8 md:w-[80%]  md:text-[.58rem]  xl3:-mr-[.3rem] xl3:h-[2.6rem] xl3:w-[84.5%] xl3:text-[.75rem]">
             Start my trial
           </button>
         </div>
