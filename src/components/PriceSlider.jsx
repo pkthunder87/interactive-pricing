@@ -32,9 +32,9 @@ function PriceSlider() {
   }, []);
 
   return (
-    <div className="h-full w-[87dvw] rounded-2xl bg-neutral-white p-12 shadow-lg md:w-[50dvw] md:rounded-md md:p-10 xl3:-mt-5 xl3:w-[37.58dvw] xl3:rounded-[.6rem] xl3:py-11 xl3:pl-11 xl3:pr-[3.16rem] ">
+    <div className="h-[93%] w-[87dvw] rounded-2xl bg-neutral-white p-12 shadow-lg md:h-full md:w-[50dvw] md:rounded-md md:p-10 xl3:-mt-5 xl3:w-[37.58dvw] xl3:rounded-[.6rem] xl3:py-11 xl3:pl-11 xl3:pr-[3.16rem] ">
       <div className="grid  items-center gap-20 md:gap-8  xl3:mt-[.4rem]">
-        <p className=" col-span-2 text-center text-2xl font-extrabold tracking-[.12em] md:col-span-1 md:text-left md:text-[.6rem] xl3:text-[.9rem]">
+        <p className=" col-span-2 mt-6 text-center text-2xl font-extrabold tracking-[.14em] md:col-span-1 md:mt-0 md:text-left md:text-[.6rem] md:tracking-[.12em] xl3:text-[.9rem]">
           100K PAGEVIEWS
         </p>
         <div className="order-last col-span-2 flex items-center justify-center md:order-none md:col-span-1 md:justify-self-end">
@@ -85,7 +85,7 @@ function PriceSlider() {
         </div>
       </div>
       <hr className="-mx-[3rem] mt-[4.5rem] md:-mx-10 md:mt-8 xl3:-ml-11 xl3:-mr-[3.16rem] xl3:mt-[2.6rem] " />
-      <div className="grid h-[44%] items-center md:grid-cols-[55%_45%] md:justify-normal">
+      <div className="mt-12 grid h-[44%] md:mt-0 md:grid-cols-[55%_45%] md:items-center md:justify-normal">
         <div
           className="flex flex-col items-center gap-[1.5rem] text-2xl
         font-semibold md:items-start md:gap-[.1rem] md:text-[.6rem] xl3:-mt-0 xl3:ml-[.15rem] xl3:text-[.75rem]"
@@ -94,7 +94,7 @@ function PriceSlider() {
             <img
               src="icon-check.svg"
               alt="checkmark"
-              className="h-4 w-4 md:h-2 md:w-2 xl3:h-[.5rem] xl3:w-[.55rem]"
+              className="h-4 w-[1.1rem] md:h-2 md:w-2 xl3:h-[.5rem] xl3:w-[.55rem]"
             />
             <p>Unlimited websites</p>
           </div>
@@ -102,7 +102,7 @@ function PriceSlider() {
             <img
               src="icon-check.svg"
               alt="checkmark"
-              className="h-4 w-4 md:h-2 md:w-2 xl3:h-[.5rem] xl3:w-[.55rem]"
+              className="h-4 w-[1.1rem] md:h-2 md:w-2 xl3:h-[.5rem] xl3:w-[.55rem]"
             />
             <p>100% data ownership</p>
           </div>
@@ -110,12 +110,12 @@ function PriceSlider() {
             <img
               src="icon-check.svg"
               alt="checkmark"
-              className="h-4 w-4 md:h-2 md:w-2 xl3:h-[.5rem] xl3:w-[.55rem]"
+              className="h-4 w-[1.1rem] md:h-2 md:w-2 xl3:h-[.5rem] xl3:w-[.55rem]"
             />
             <p>Email reports</p>
           </div>
         </div>
-        <div className="-mt-12 flex justify-center md:mt-0 md:justify-end">
+        <div className=" flex justify-center md:mt-0 md:justify-end">
           <button className="h-[5.2rem] w-[60%] rounded-full bg-neutral-dark-desaturated-blue text-2xl font-extrabold text-primary-pale-blue md:h-8 md:w-[80%]  md:text-[.58rem]  xl3:-mr-[.3rem] xl3:h-[2.6rem] xl3:w-[84.5%] xl3:text-[.75rem]">
             Start my trial
           </button>
